@@ -30,133 +30,70 @@ a {
     text-decoration: none;
 }
 
-.site-header,
-.site-footer {
-    width: min(1180px, calc(100% - 48px));
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.site-header {
-    padding: 28px 0;
-}
-
-.brand {
-    font-size: 13px;
-    letter-spacing: 0.24em;
-    font-weight: 700;
-}
-
-.tagline {
-    color: var(--muted);
-    font-size: 12px;
-    letter-spacing: 0.04em;
-}
+/* Homepage */
 
 .home {
-    width: min(1180px, calc(100% - 48px));
-    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .hero {
-    min-height: 64vh;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
 
-.eyebrow,
-.section-heading,
-.meta,
-.source-label,
-.continue-label {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.16em;
-    font-size: 10px;
-}
-
-.eyebrow {
-    color: var(--muted);
-    margin: 0 0 24px;
-}
-
-.hero .why-button {
+.why-button {
+    display: inline-block;
     margin: 0;
-    font-size: clamp(7rem, 19vw, 15rem);
+    font-size: clamp(5rem, 11vw, 9rem);
     font-weight: 400;
-    line-height: 0.8;
+    line-height: 0.85;
     letter-spacing: -0.08em;
-    transition: text-shadow 0.5s ease, transform 0.5s ease;
+    transition:
+        text-shadow 0.5s ease,
+        transform 0.5s ease;
 }
 
-.hero .why-button:hover {
+.why-button:hover {
     text-shadow: 0 0 70px rgba(255, 255, 255, 0.25);
     transform: scale(1.015);
 }
 
-.hero-copy {
+.wonder-button {
+    margin-top: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     color: var(--muted);
-    margin: 38px 0 0;
-    font-size: 17px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    pointer-events: none;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease,
+        color 0.25s ease;
 }
 
-.question-section {
-    padding: 60px 0 120px;
+.wonder-button.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
-.section-heading {
-    display: flex;
-    justify-content: space-between;
-    color: var(--dim);
-    border-bottom: 1px solid var(--line);
-    padding-bottom: 14px;
-    margin-bottom: 20px;
+.wonder-button:hover {
+    color: var(--text);
 }
 
-.article-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
-    background: var(--line);
-    border: 1px solid var(--line);
-}
-
-.article-card {
-    background: var(--bg);
-    padding: 34px;
-    min-height: 240px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: background 0.25s ease;
-}
-
-.article-card:hover {
-    background: var(--surface-hover);
-}
-
-.article-card h2 {
-    margin: 18px 0 0;
-    font-size: clamp(1.7rem, 3vw, 2.8rem);
-    font-weight: 400;
-    line-height: 1.05;
-}
-
-.article-card p {
-    color: var(--muted);
-    line-height: 1.65;
-    max-width: 620px;
-}
-
-.meta {
-    color: var(--dim);
-}
+/* Article page */
 
 .article-page {
     width: min(820px, calc(100% - 48px));
@@ -168,7 +105,7 @@ a {
     margin-bottom: 70px;
 }
 
-.article-header .why-button {
+.article-header h1 {
     font-size: clamp(3rem, 7vw, 6.5rem);
     font-weight: 400;
     line-height: 0.98;
@@ -186,6 +123,19 @@ a {
     font-size: 19px;
     line-height: 1.85;
     margin: 0 0 28px;
+}
+
+.meta,
+.source-label,
+.continue-label {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 10px;
+}
+
+.meta {
+    color: var(--dim);
 }
 
 .sources {
@@ -257,36 +207,13 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.site-footer {
-    border-top: 1px solid var(--line);
-    padding: 24px 0 30px;
-    color: var(--dim);
-    font-size: 10px;
-    letter-spacing: 0.1em;
-}
-
 @media (max-width: 700px) {
-    .site-header,
-    .site-footer,
-    .home {
-        width: min(100% - 32px, 1180px);
+    .why-button {
+        font-size: clamp(4rem, 18vw, 7rem);
     }
 
-    .tagline {
-        display: none;
-    }
-
-    .hero {
-        min-height: 55vh;
-    }
-
-    .article-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .article-card {
-        min-height: 210px;
-        padding: 25px;
+    .wonder-button {
+        margin-top: 32px;
     }
 
     .article-page {
