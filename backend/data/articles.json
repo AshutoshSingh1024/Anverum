@@ -1,1 +1,52 @@
-[]
+[
+    {
+        "id": "why-is-the-sky-blue",
+        "title": "Why is the sky blue?",
+        "date": "2026-09-10",
+        "summary": "A familiar sight caused by an interaction between sunlight and Earth's atmosphere.",
+        "intro": "The sky looks blue because sunlight does not travel through the atmosphere completely unchanged.",
+        "body": [
+            "Sunlight looks white to us, but it contains a broad range of visible wavelengths. When sunlight enters Earth's atmosphere, it encounters molecules of gases such as nitrogen and oxygen.",
+            "These molecules scatter shorter wavelengths of visible light more strongly than longer wavelengths. Blue light is scattered across the sky much more effectively than red light, so blue light reaches our eyes from many directions.",
+            "The same effect also helps explain why sunsets can become red or orange. When the Sun is near the horizon, its light travels through more atmosphere, giving much of the blue light more opportunity to scatter away from the direct path to your eyes.",
+            "So the blue sky is not simply the atmosphere being blue. It is the result of light, molecules, geometry, and an absurdly large ball of plasma doing its usual thing."
+        ],
+        "sources": [
+            {
+                "title": "NASA Space Place - Why Is the Sky Blue?",
+                "url": "https://spaceplace.nasa.gov/blue-sky/en/"
+            },
+            {
+                "title": "Encyclopaedia Britannica - Rayleigh scattering",
+                "url": "https://www.britannica.com/science/Rayleigh-scattering"
+            }
+        ],
+        "next_id": "why-does-the-moon-look-bigger-near-the-horizon",
+        "next_title": "Why does the Moon look bigger near the horizon?"
+    },
+    {
+        "id": "why-does-the-moon-look-bigger-near-the-horizon",
+        "title": "Why does the Moon look bigger near the horizon?",
+        "date": "2026-09-10",
+        "summary": "The Moon's apparent size changes far less than your brain insists it does.",
+        "intro": "The Moon is not dramatically swelling as it approaches the horizon. Your visual system is doing something much stranger.",
+        "body": [
+            "The angular size of the Moon changes only slightly during a single night. Its distance from Earth does change as it moves along its orbit, but that variation cannot explain the dramatic difference people often perceive near the horizon.",
+            "Instead, the effect is generally called the Moon illusion. When the Moon is near the horizon, your brain sees it alongside trees, buildings, mountains, and other objects that provide familiar information about distance and scale.",
+            "When the same Moon is high in an empty sky, there are fewer visual cues surrounding it. Your perception of its size can therefore change even though the physical angular diameter has barely changed.",
+            "The important lesson is slightly inconvenient: seeing something clearly does not guarantee that your perception of its size is physically accurate. The brain is an interpretation engine, not a camera."
+        ],
+        "sources": [
+            {
+                "title": "NASA - The Moon Illusion",
+                "url": "https://science.nasa.gov/moon/"
+            },
+            {
+                "title": "Encyclopaedia Britannica - Moon illusion",
+                "url": "https://www.britannica.com/science/Moon-illusion"
+            }
+        ],
+        "next_id": "why-is-the-sky-blue",
+        "next_title": "Why is the sky blue?"
+    }
+]

@@ -1,1 +1,1 @@
-# Add backend dependencies here
+Flask>=3.0,<4.0
