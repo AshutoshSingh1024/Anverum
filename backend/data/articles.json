@@ -1,52 +1,613 @@
 [
-    {
-        "id": "why-is-the-sky-blue",
-        "title": "Why is the sky blue?",
-        "date": "2026-09-10",
-        "summary": "A familiar sight caused by an interaction between sunlight and Earth's atmosphere.",
-        "intro": "The sky looks blue because sunlight does not travel through the atmosphere completely unchanged.",
-        "body": [
-            "Sunlight looks white to us, but it contains a broad range of visible wavelengths. When sunlight enters Earth's atmosphere, it encounters molecules of gases such as nitrogen and oxygen.",
-            "These molecules scatter shorter wavelengths of visible light more strongly than longer wavelengths. Blue light is scattered across the sky much more effectively than red light, so blue light reaches our eyes from many directions.",
-            "The same effect also helps explain why sunsets can become red or orange. When the Sun is near the horizon, its light travels through more atmosphere, giving much of the blue light more opportunity to scatter away from the direct path to your eyes.",
-            "So the blue sky is not simply the atmosphere being blue. It is the result of light, molecules, geometry, and an absurdly large ball of plasma doing its usual thing."
-        ],
-        "sources": [
-            {
-                "title": "NASA Space Place - Why Is the Sky Blue?",
-                "url": "https://spaceplace.nasa.gov/blue-sky/en/"
-            },
-            {
-                "title": "Encyclopaedia Britannica - Rayleigh scattering",
-                "url": "https://www.britannica.com/science/Rayleigh-scattering"
-            }
-        ],
-        "next_id": "why-does-the-moon-look-bigger-near-the-horizon",
-        "next_title": "Why does the Moon look bigger near the horizon?"
-    },
-    {
-        "id": "why-does-the-moon-look-bigger-near-the-horizon",
-        "title": "Why does the Moon look bigger near the horizon?",
-        "date": "2026-09-10",
-        "summary": "The Moon's apparent size changes far less than your brain insists it does.",
-        "intro": "The Moon is not dramatically swelling as it approaches the horizon. Your visual system is doing something much stranger.",
-        "body": [
-            "The angular size of the Moon changes only slightly during a single night. Its distance from Earth does change as it moves along its orbit, but that variation cannot explain the dramatic difference people often perceive near the horizon.",
-            "Instead, the effect is generally called the Moon illusion. When the Moon is near the horizon, your brain sees it alongside trees, buildings, mountains, and other objects that provide familiar information about distance and scale.",
-            "When the same Moon is high in an empty sky, there are fewer visual cues surrounding it. Your perception of its size can therefore change even though the physical angular diameter has barely changed.",
-            "The important lesson is slightly inconvenient: seeing something clearly does not guarantee that your perception of its size is physically accurate. The brain is an interpretation engine, not a camera."
-        ],
-        "sources": [
-            {
-                "title": "NASA - The Moon Illusion",
-                "url": "https://science.nasa.gov/moon/"
-            },
-            {
-                "title": "Encyclopaedia Britannica - Moon illusion",
-                "url": "https://www.britannica.com/science/Moon-illusion"
-            }
-        ],
-        "next_id": "why-is-the-sky-blue",
-        "next_title": "Why is the sky blue?"
-    }
+{
+"id": "why-is-the-sky-blue",
+"title": "Why is the sky blue?",
+"date": "2026-09-10",
+"summary": "The blue sky is the result of sunlight interacting with the gases in Earth's atmosphere.",
+"intro": "Sunlight looks white, but it contains many different colors. When that light enters Earth's atmosphere, something very simple makes one part of it much more visible to us.",
+"body": [
+"Sunlight is made up of many wavelengths of visible light. When sunlight enters the atmosphere, it encounters molecules of gases such as nitrogen and oxygen. These molecules scatter some of the incoming light in different directions.",
+"Shorter wavelengths of visible light, particularly blue light, are scattered much more strongly than longer wavelengths such as red. As a result, blue light becomes visible to us from many different directions across the sky.",
+"This is also why the sky can look very different around sunrise and sunset. When the Sun is near the horizon, its light travels through much more atmosphere before reaching us. More of the shorter-wavelength light is scattered away, leaving relatively more of the longer red and orange wavelengths travelling directly toward us.",
+"So the atmosphere itself is not blue. The color is an optical consequence of sunlight, atmospheric molecules, and the path that light takes through the air."
+],
+"sources": [
+{
+"title": "NASA Space Place - Why Is the Sky Blue?",
+"url": "https://spaceplace.nasa.gov/blue-sky/en/"
+}
+],
+"next_id": "why-does-the-moon-look-bigger-near-the-horizon",
+"next_title": "Why does the Moon look bigger near the horizon?"
+},
+{
+"id": "why-does-the-moon-look-bigger-near-the-horizon",
+"title": "Why does the Moon look bigger near the horizon?",
+"date": "2026-09-10",
+"summary": "The Moon does not suddenly become enormous near the horizon. The strange part is happening in our perception.",
+"intro": "The Moon can look enormous when it sits above a distant horizon, yet much smaller when it climbs into an empty sky. The Moon has not dramatically changed size. Your visual system has.",
+"body": [
+"The apparent size of the Moon changes somewhat as its distance from Earth changes during its orbit, but those changes are not large enough to explain the dramatic difference people often perceive when the Moon is near the horizon.",
+"The phenomenon is known as the Moon illusion. Near the horizon, the Moon appears alongside trees, buildings, mountains and other objects whose approximate sizes and distances our brains have learned to interpret.",
+"When the Moon is high overhead, there are fewer familiar objects surrounding it. The brain has less contextual information with which to judge its apparent size, and the Moon can consequently appear smaller.",
+"The interesting part is that measuring the Moon's angular size can reveal that our perception is exaggerating the difference. The illusion is therefore a useful reminder that seeing is not the same thing as measuring."
+],
+"sources": [
+{
+"title": "NASA - Moon",
+"url": "https://science.nasa.gov/moon/"
+},
+{
+"title": "Encyclopaedia Britannica - Moon illusion",
+"url": "https://www.britannica.com/science/Moon-illusion"
+}
+],
+"next_id": "why-do-stars-twinkle",
+"next_title": "Why do stars twinkle?"
+},
+{
+"id": "why-do-stars-twinkle",
+"title": "Why do stars twinkle?",
+"date": "2026-09-10",
+"summary": "Stars appear to flicker because their light passes through Earth's constantly moving atmosphere.",
+"intro": "A star can be unimaginably far away and still appear to flicker from our perspective. The star itself is not rapidly changing brightness. Earth's atmosphere is getting in the way.",
+"body": [
+"Stars are so distant that, to the naked eye, they appear almost like tiny points of light. Their light travels through Earth's atmosphere before reaching us.",
+"The atmosphere is not perfectly uniform. It contains moving layers of air with different temperatures and densities. As starlight passes through these layers, the light is repeatedly bent by small amounts.",
+"Because the atmosphere is constantly moving, the exact path of the light changes from moment to moment. To an observer on the ground, this produces rapid changes in the apparent brightness and position of the tiny point of light.",
+"Planets usually appear to twinkle much less because they are closer and their disks cover a larger apparent area in the sky. The atmospheric distortions affecting different parts of that larger disk tend to average out."
+],
+"sources": [
+{
+"title": "NASA StarChild - Why Do Stars Twinkle?",
+"url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question26.html"
+},
+{
+"title": "NASA Astronomy Picture of the Day - Why Stars Twinkle",
+"url": "https://apod.nasa.gov/apod/ap000725.html"
+}
+],
+"next_id": "why-is-space-dark",
+"next_title": "Why is space dark if there are so many stars?"
+},
+{
+"id": "why-is-space-dark",
+"title": "Why is space dark if there are so many stars?",
+"date": "2026-09-10",
+"summary": "The darkness of space is connected to the finite age and expansion of the universe.",
+"intro": "If the universe contains an enormous number of stars, it seems reasonable to ask why every direction in the night sky is not filled with their light.",
+"body": [
+"This question is related to Olbers' paradox. In a hypothetical universe that was infinite, static, and infinitely old, every direction would eventually point toward a star, and the night sky would be expected to glow brightly.",
+"Our actual universe is not like that. It has a finite age, which means light from sufficiently distant objects has not had enough time to reach Earth. Looking farther away also means looking further back in cosmic history.",
+"The expansion of the universe adds another effect. Light from distant galaxies is stretched toward longer wavelengths as space expands, reducing the amount of visible light reaching us from those sources.",
+"Space therefore is not perfectly black. There is faint background light and radiation throughout the universe. It simply is not bright enough to turn the entire sky into one giant glowing surface."
+],
+"sources": [
+{
+"title": "NASA - How Dark Is Space?",
+"url": "https://www.nasa.gov/missions/hubble/new-horizons-spacecraft-answers-question-how-dark-is-space/"
+},
+{
+"title": "NASA StarChild - Why Is Space Black?",
+"url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question52.html"
+}
+],
+"next_id": "why-do-we-have-seasons",
+"next_title": "Why do we have seasons?"
+},
+{
+"id": "why-do-we-have-seasons",
+"title": "Why do we have seasons?",
+"date": "2026-09-10",
+"summary": "Earth's seasons are caused primarily by the tilt of Earth's rotational axis.",
+"intro": "Summer and winter are not simply caused by Earth moving closer to or farther from the Sun. The important detail is the angle at which sunlight reaches different parts of Earth.",
+"body": [
+"Earth's rotational axis is tilted by about 23 degrees relative to the plane of its orbit around the Sun. As Earth travels around the Sun, that tilt remains pointed in nearly the same direction in space.",
+"When a hemisphere is tilted toward the Sun, sunlight reaches it at a higher angle and the days are generally longer. The same amount of solar energy is therefore concentrated over a smaller area and received for more hours each day. This produces summer conditions.",
+"When the hemisphere is tilted away from the Sun, sunlight arrives at a lower angle and the days are shorter. Solar energy is spread over a larger area and received for fewer hours, producing winter conditions.",
+"This also explains why the seasons are opposite in the Northern and Southern Hemispheres. When one is tilted toward the Sun, the other is tilted away."
+],
+"sources": [
+{
+"title": "NASA Science - Seasons on Earth",
+"url": "https://science.nasa.gov/helio-and-you-seasons-on-earth-mars-and-beyond/"
+}
+],
+"next_id": "why-does-the-moon-have-phases",
+"next_title": "Why does the Moon have phases?"
+},
+{
+"id": "why-does-the-moon-have-phases",
+"title": "Why does the Moon have phases?",
+"date": "2026-09-10",
+"summary": "The Moon's phases happen because we see different portions of its sunlit half as it orbits Earth.",
+"intro": "The Moon does not produce its own visible light. What we see is sunlight reflected from its surface, and our view of that illuminated portion changes throughout its orbit.",
+"body": [
+"At any given time, roughly half of the Moon is illuminated by the Sun. As the Moon travels around Earth, however, the angle between the Sun, Earth and Moon changes.",
+"When the Moon is positioned between Earth and the Sun, most of the illuminated half faces away from Earth and we see a new Moon. As it continues around its orbit, increasing portions of the illuminated side become visible.",
+"At full Moon, Earth is approximately between the Sun and Moon, allowing us to see almost the entire sunlit side. The Moon then continues through its waning phases until the cycle begins again.",
+"The complete sequence takes about 29.5 days from one new Moon to the next. The phases are therefore not caused by Earth's shadow, except during a lunar eclipse."
+],
+"sources": [
+{
+"title": "NASA Science - Moon Phases",
+"url": "https://science.nasa.gov/moon/moon-phases/"
+}
+],
+"next_id": "why-does-earth-spin",
+"next_title": "Why does Earth spin?"
+},
+{
+"id": "why-does-earth-spin",
+"title": "Why does Earth spin?",
+"date": "2026-09-10",
+"summary": "Earth rotates because of angular momentum inherited from the material that formed the planet.",
+"intro": "Earth's rotation is a leftover from the chaotic process that created our planet billions of years ago.",
+"body": [
+"The Solar System formed from a huge cloud of gas and dust that collapsed under gravity. As the material contracted, it began rotating more rapidly, much like a figure skater spins faster when pulling their arms inward.",
+"As particles collided and joined together, the resulting planets inherited angular momentum from the rotating disk of material around the young Sun. Earth therefore began its history already rotating.",
+"There is no giant motor continuously pushing Earth around. Once Earth was rotating, its angular momentum kept it rotating because there is very little external torque capable of stopping it.",
+"Earth's rotation does slowly change. Tidal interactions with the Moon and other effects alter the length of a day over extremely long periods. The planet is therefore not a perfectly constant cosmic clock."
+],
+"sources": [
+{
+"title": "NASA - Earth",
+"url": "https://science.nasa.gov/earth/"
+}
+],
+"next_id": "why-does-earth-have-a-magnetic-field",
+"next_title": "Why does Earth have a magnetic field?"
+},
+{
+"id": "why-does-earth-have-a-magnetic-field",
+"title": "Why does Earth have a magnetic field?",
+"date": "2026-09-10",
+"summary": "Earth's magnetic field is generated by moving electrically conducting material in its outer core.",
+"intro": "Deep beneath our feet, Earth's interior is doing something that has consequences all the way out into space.",
+"body": [
+"Earth's outer core is made largely of liquid iron and nickel. Heat escaping from the deeper interior drives motion within this electrically conducting fluid.",
+"The movement of this conducting material generates electric currents, and those currents produce Earth's magnetic field. This self-sustaining process is called the geodynamo.",
+"The magnetic field extends far beyond the surface and forms the magnetosphere. It interacts with the solar wind, a stream of charged particles constantly flowing outward from the Sun.",
+"The field is not perfectly stable or permanent. Its strength and structure change over time, and Earth's magnetic poles have reversed many times in geological history."
+],
+"sources": [
+{
+"title": "NASA - Earth's Magnetosphere",
+"url": "https://science.nasa.gov/heliophysics/focus-areas/magnetosphere/"
+}
+],
+"next_id": "why-is-the-ocean-blue",
+"next_title": "Why is the ocean blue?"
+},
+{
+"id": "why-is-the-ocean-blue",
+"title": "Why is the ocean blue?",
+"date": "2026-09-10",
+"summary": "Water absorbs some wavelengths of visible light more strongly than others, leaving more blue light to reach our eyes.",
+"intro": "The ocean can look blue even when the sky is cloudy. That is because the water itself plays a major role in producing the color.",
+"body": [
+"Sunlight contains a broad range of visible wavelengths. When light enters water, water absorbs longer-wavelength colors such as red more strongly than shorter-wavelength colors.",
+"As light travels through enough water, much of the red, orange and yellow light is absorbed. Blue wavelengths survive in greater proportion and can be scattered back toward our eyes.",
+"The exact color of the ocean is not always blue. Suspended sediments, microscopic organisms and other particles can change how light is absorbed and scattered, producing green, brown, turquoise or other colors.",
+"The ocean is also far darker than it appears from the surface. Most sunlight does not penetrate very deeply, and the deep ocean exists in near-total darkness."
+],
+"sources": [
+{
+"title": "NOAA Ocean Service - Why Is the Ocean Blue?",
+"url": "https://oceanservice.noaa.gov/facts/oceanblue.html"
+},
+{
+"title": "Woods Hole Oceanographic Institution - Why Is the Ocean Blue?",
+"url": "https://www.whoi.edu/ocean-learning-hub/ocean-facts/why-is-the-ocean-blue/"
+}
+],
+"next_id": "why-is-the-ocean-salty",
+"next_title": "Why is the ocean salty?"
+},
+{
+"id": "why-is-the-ocean-salty",
+"title": "Why is the ocean salty?",
+"date": "2026-09-10",
+"summary": "Ocean salt comes largely from weathering rocks on land and chemical processes occurring beneath the sea.",
+"intro": "Rivers continually carry dissolved minerals into the ocean, yet the rivers themselves usually do not taste nearly as salty. So where does all the ocean's salt come from?",
+"body": [
+"Rainwater is slightly acidic and slowly weathers rocks on land. This releases dissolved ions and minerals that are carried by streams and rivers toward the ocean.",
+"The seafloor contributes additional dissolved material. Seawater can enter cracks in the ocean crust, become heated, undergo chemical reactions with surrounding rocks and return through hydrothermal vents.",
+"Some dissolved substances are removed from seawater by organisms, chemical reactions and sediments. Others remain dissolved for long periods, allowing them to accumulate in the global ocean system.",
+"Sodium and chloride are among the most abundant dissolved ions in seawater. Average ocean salinity is roughly 35 parts per thousand, although it varies between regions because evaporation, precipitation, freshwater input and circulation are not uniform."
+],
+"sources": [
+{
+"title": "NOAA Ocean Service - Why Is the Ocean Salty?",
+"url": "https://oceanservice.noaa.gov/facts/whysalty.html"
+},
+{
+"title": "NOAA Ocean Service - Why Is the Ocean Salty, but Rivers Are Not?",
+"url": "https://oceanservice.noaa.gov/facts/riversnotsalty.html"
+}
+],
+"next_id": "why-does-the-tide-rise",
+"next_title": "Why does the tide rise and fall?"
+},
+{
+"id": "why-does-the-tide-rise",
+"title": "Why does the tide rise and fall?",
+"date": "2026-09-10",
+"summary": "Tides are largely driven by the gravitational effects of the Moon and Sun acting on Earth's oceans.",
+"intro": "The ocean appears to rise and fall on a predictable rhythm. The main driver is gravity, but the actual shape of Earth's coastlines and oceans makes the system more complicated than a simple wave following the Moon.",
+"body": [
+"The Moon's gravity pulls on Earth and its oceans. Because the strength of that gravitational pull varies across Earth, it creates tidal effects that deform the ocean into a pattern of raised and lowered water.",
+"The Sun also contributes to tides. Although the Sun is much more massive than the Moon, its enormous distance reduces its tidal influence. The combined positions of the Sun and Moon determine whether their effects reinforce or partially oppose each other.",
+"When the Sun, Earth and Moon are approximately aligned, the resulting tides are called spring tides and have a larger tidal range. When the Sun and Moon are positioned roughly at right angles relative to Earth, smaller neap tides occur.",
+"Local tides can look very different from one coastline to another because ocean basins, bays, seafloor depth and the shape of coastlines influence how tidal energy moves through the water."
+],
+"sources": [
+{
+"title": "NOAA Ocean Service - Tides",
+"url": "https://oceanservice.noaa.gov/education/tutorial_tides/"
+}
+],
+"next_id": "why-do-earthquakes-happen",
+"next_title": "Why do earthquakes happen?"
+},
+{
+"id": "why-do-earthquakes-happen",
+"title": "Why do earthquakes happen?",
+"date": "2026-09-10",
+"summary": "Earthquakes occur when accumulated stress is suddenly released along a fault in Earth's crust.",
+"intro": "The ground beneath us looks solid and motionless, but Earth's crust is constantly being pushed, pulled and deformed.",
+"body": [
+"Earth's tectonic plates are continually moving. Where rocks meet along faults, friction can prevent them from sliding smoothly, allowing stress to accumulate over time.",
+"Eventually, the stress can become greater than the friction holding the rocks in place. The fault then slips suddenly, releasing stored elastic energy.",
+"That energy travels outward as seismic waves. When those waves reach the surface, they can produce the shaking we experience as an earthquake.",
+"Earthquakes can occur in many settings, including plate boundaries and faults located within plates. Their size and effects depend on factors such as the amount of energy released, the depth of the earthquake, the distance from the source and the local geology."
+],
+"sources": [
+{
+"title": "U.S. Geological Survey - What Is an Earthquake and What Causes Them to Happen?",
+"url": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen"
+}
+],
+"next_id": "why-do-volcanoes-erupt",
+"next_title": "Why do volcanoes erupt?"
+},
+{
+"id": "why-do-volcanoes-erupt",
+"title": "Why do volcanoes erupt?",
+"date": "2026-09-10",
+"summary": "Volcanic eruptions happen when magma rises toward the surface and pressure allows it to escape.",
+"intro": "Far beneath the surface, parts of Earth's interior are hot enough to melt rock. Sometimes that molten material finds a path upward.",
+"body": [
+"Molten rock beneath Earth's surface is called magma. Because magma can be less dense than the surrounding solid rock, it can rise through fractures and collect in underground reservoirs.",
+"Eventually magma may reach the surface through vents or fissures. Once it erupts onto the surface, it is called lava.",
+"Not all eruptions behave the same way. Runny magma allows gases to escape relatively easily and can produce lava flows. Thick, sticky magma can trap gases, allowing pressure to build until the eruption becomes explosive.",
+"The result can range from relatively quiet lava flows to violent eruptions that send ash, volcanic gases and fragmented rock high into the atmosphere."
+],
+"sources": [
+{
+"title": "U.S. Geological Survey - How Do Volcanoes Erupt?",
+"url": "https://www.usgs.gov/faqs/how-do-volcanoes-erupt"
+}
+],
+"next_id": "why-do-plants-grow-toward-light",
+"next_title": "Why do plants grow toward light?"
+},
+{
+"id": "why-do-plants-grow-toward-light",
+"title": "Why do plants grow toward light?",
+"date": "2026-09-10",
+"summary": "Plants can sense the direction of light and redistribute growth hormones so their shoots bend toward it.",
+"intro": "A plant cannot walk toward a sunny window, so it has another solution: it changes the way different parts of its stem grow.",
+"body": [
+"Plants need light for photosynthesis, the process through which they convert light energy into chemical energy. Getting access to sufficient light can therefore be extremely important for growth.",
+"Many plant shoots display phototropism, meaning their growth responds to the direction of light. A plant hormone called auxin plays a major role in this process.",
+"When light comes primarily from one side, auxin becomes distributed unevenly across the growing region of the shoot. Cells on the darker side can elongate more, causing the stem to bend toward the light.",
+"The plant is therefore not consciously deciding to turn toward the window. It is responding to environmental information through chemical signalling and differential growth."
+],
+"sources": [
+{
+"title": "Encyclopaedia Britannica - Phototropism",
+"url": "https://www.britannica.com/science/phototropism"
+}
+],
+"next_id": "why-are-leaves-green",
+"next_title": "Why are leaves green?"
+},
+{
+"id": "why-are-leaves-green",
+"title": "Why are leaves green?",
+"date": "2026-09-10",
+"summary": "Leaves look green because chlorophyll absorbs some wavelengths of visible light more strongly than others.",
+"intro": "Plants need light to make food, yet the parts of a plant that capture sunlight are usually green. That color comes from the chemistry doing the work.",
+"body": [
+"Photosynthesis uses light energy to help convert carbon dioxide and water into chemical energy stored in organic molecules. The main pigments involved include chlorophyll.",
+"Chlorophyll absorbs light particularly strongly in parts of the red and blue regions of the visible spectrum. Green wavelengths are absorbed less strongly and are more likely to be reflected or transmitted back toward our eyes.",
+"That reflected green light is why leaves appear green. The color is therefore not simply a decorative feature. It is a visible consequence of the wavelengths that chlorophyll uses less efficiently for absorbing light.",
+"Leaves can look different colors when pigment concentrations change. In autumn, for example, the amount of visible chlorophyll can decline, allowing other pigments that were previously masked to become more apparent."
+],
+"sources": [
+{
+"title": "Encyclopaedia Britannica - Chlorophyll",
+"url": "https://www.britannica.com/science/chlorophyll"
+}
+],
+"next_id": "why-do-animals-migrate",
+"next_title": "Why do animals migrate?"
+},
+{
+"id": "why-do-animals-migrate",
+"title": "Why do animals migrate?",
+"date": "2026-09-10",
+"summary": "Migration can help animals reach places with better food, breeding conditions and seasonal climates.",
+"intro": "Every year, enormous numbers of animals move across landscapes and oceans. For many species, migration is a response to the changing availability of resources.",
+"body": [
+"Seasonal environments can change dramatically. Food that is abundant during one part of the year may become scarce later, temperatures can become difficult to tolerate, and breeding opportunities may appear only during particular seasons.",
+"Migration allows some animals to exploit these changes rather than remain in one location year-round. Migratory birds, for example, may travel to regions with abundant food during breeding season and return to different regions when winter arrives.",
+"Migration is not limited to birds. Mammals, fish, insects and other animals also undertake migrations, sometimes across enormous distances.",
+"The behaviour is costly and dangerous. Animals must spend energy travelling and can encounter predators, storms, habitat loss and human-made obstacles. Yet over evolutionary time, the benefits can outweigh those costs when migration improves survival or reproductive success."
+],
+"sources": [
+{
+"title": "Smithsonian National Zoo - Introduction to Migratory Birds",
+"url": "https://nationalzoo.si.edu/migratory-birds/introduction-migratory-birds"
+}
+],
+"next_id": "why-do-birds-sing",
+"next_title": "Why do birds sing?"
+},
+{
+"id": "why-do-birds-sing",
+"title": "Why do birds sing?",
+"date": "2026-09-10",
+"summary": "Birdsong can communicate territory, mating information, identity and other social signals.",
+"intro": "Birdsong can sound like music to humans, but for the bird producing it, the sound can be part of a complicated communication system.",
+"body": [
+"Different bird species produce characteristic calls and songs. These sounds can communicate information about identity, location, territory and social relationships.",
+"In many species, males sing to attract mates or defend territories, although the exact roles of singing vary greatly between species. Some birds also use calls rather than songs for alarm, contact or coordination.",
+"Birdsong is influenced by both biology and environment. Some species have strong innate components to their vocal behaviour, while others learn particular songs from other birds during development.",
+"Even the time of day can matter. Research on birds in India's Western Ghats, for example, has found that territorial behaviour and diet help explain differences in how frequently different species sing around dawn."
+],
+"sources": [
+{
+"title": "Cornell Chronicle - Study Reveals Why the Early Bird Sings Early",
+"url": "https://news.cornell.edu/stories/2025/06/study-reveals-why-early-bird-sings-early"
+}
+],
+"next_id": "why-do-cats-purr",
+"next_title": "Why do cats purr?"
+},
+{
+"id": "why-do-cats-purr",
+"title": "Why do cats purr?",
+"date": "2026-09-10",
+"summary": "Cats purr in several situations, including positive social interactions and some stressful or uncomfortable situations.",
+"intro": "A cat purring beside you usually feels like one of the clearest signs of contentment. But cats also purr in situations that are much less pleasant.",
+"body": [
+"Purring is produced through repeated activation of muscles associated with the cat's larynx and breathing. The resulting vibrations occur during both inhalation and exhalation.",
+"Cats commonly purr during social interactions, such as when being stroked or while resting comfortably. Kittens can also purr during nursing, which may help maintain contact between the kitten and mother.",
+"The behaviour is not limited to obvious happiness. Cats may also purr when frightened, injured or experiencing discomfort. In those situations, purring may have a social or self-soothing function rather than simply communicating pleasure.",
+"This is why interpreting a purr requires context. A purring cat is communicating something, but the sound alone does not tell us exactly what that something is."
+],
+"sources": [
+{
+"title": "Library of Congress - Why Do Cats Purr?",
+"url": "https://www.loc.gov/everyday-mysteries/zoology/item/why-do-cats-purr/"
+}
+],
+"next_id": "why-do-we-yawn",
+"next_title": "Why do we yawn?"
+},
+{
+"id": "why-do-we-yawn",
+"title": "Why do we yawn?",
+"date": "2026-09-10",
+"summary": "Yawning is widespread among vertebrates, but scientists still study exactly why the behaviour exists.",
+"intro": "Yawning is familiar, contagious and strangely difficult to explain with a single simple answer.",
+"body": [
+"Humans tend to yawn around transitions in alertness, such as when becoming sleepy or waking up. Yawning also occurs in many other animals, suggesting that it is an ancient biological behaviour rather than a uniquely human habit.",
+"Several explanations have been proposed for yawning. Researchers have investigated relationships with arousal, brain temperature, social communication and changes between different behavioural states.",
+"One popular explanation is that yawning simply exists to increase oxygen intake, but normal breathing already supplies the body with oxygen and research has not supported that idea as a complete explanation.",
+"The strongest conclusion is therefore more cautious: yawning clearly has biological functions, but scientists are still working to determine how its different effects fit together. Sometimes the honest answer is that biology has not finished explaining itself."
+],
+"sources": [
+{
+"title": "Sleep Foundation - Why Do We Yawn?",
+"url": "https://www.sleepfoundation.org/physical-health/why-do-we-yawn"
+},
+{
+"title": "NCBI Bookshelf - Yawning",
+"url": "https://www.ncbi.nlm.nih.gov/books/NBK537063/"
+}
+],
+"next_id": "why-do-we-sleep",
+"next_title": "Why do we need to sleep?"
+},
+{
+"id": "why-do-we-sleep",
+"title": "Why do we need to sleep?",
+"date": "2026-09-10",
+"summary": "Sleep supports numerous biological processes, including brain function, memory and physical recovery.",
+"intro": "Sleep looks like inactivity, but the sleeping brain and body are still carrying out important work.",
+"body": [
+"Sleep affects many systems throughout the body. It is associated with memory processing, regulation of metabolism, immune function, emotional regulation and the maintenance of normal brain function.",
+"During sleep, the brain moves through different stages with distinct patterns of neural activity. These include non-REM stages and REM sleep, which differ in physiology and brain activity.",
+"Sleep also provides an opportunity for the body to carry out processes that are difficult to perform in the same way during continuous waking activity. The exact functions of sleep are complex and not reducible to a single purpose.",
+"Scientists still investigate why sleep evolved and why its precise architecture differs among species. What is clear is that prolonged disruption or deprivation of sleep can seriously affect both physical and cognitive functioning."
+],
+"sources": [
+{
+"title": "National Institute of Neurological Disorders and Stroke - Brain Basics: Understanding Sleep",
+"url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+}
+],
+"next_id": "why-do-we-dream",
+"next_title": "Why do we dream?"
+},
+{
+"id": "why-do-we-dream",
+"title": "Why do we dream?",
+"date": "2026-09-10",
+"summary": "Dreams are complex experiences associated with sleep, but their exact biological purpose remains uncertain.",
+"intro": "Nearly everyone who sleeps experiences dreams, yet science still cannot give us one definitive reason why the brain creates them.",
+"body": [
+"Dreaming can occur during several stages of sleep, although vivid and story-like dreams are particularly associated with REM sleep. Dreams can contain images, sounds, emotions, memories and completely unfamiliar combinations of ideas.",
+"Several theories attempt to explain why dreaming occurs. Dreams may be connected to memory processing, emotional regulation, learning, the brain's interpretation of spontaneous neural activity, or several of these processes at once.",
+"The difficulty is that dreams are private experiences. Researchers cannot directly observe the complete subjective content of a dream, so much of the science relies on sleep measurements combined with reports from people who are awakened and asked what they experienced.",
+"The most scientifically responsible answer is therefore not that dreams definitely have one purpose. They are a real and measurable part of sleep, but their exact function remains an active area of research."
+],
+"sources": [
+{
+"title": "National Institute of Neurological Disorders and Stroke - Brain Basics: Understanding Sleep",
+"url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+},
+{
+"title": "National Institute of Mental Health - Sleep",
+"url": "https://www.nimh.nih.gov/health/topics/sleep"
+}
+],
+"next_id": "why-do-languages-change",
+"next_title": "Why do languages change over time?"
+},
+{
+"id": "why-do-languages-change",
+"title": "Why do languages change over time?",
+"date": "2026-09-10",
+"summary": "Languages constantly change as speakers alter pronunciation, vocabulary, grammar and meaning across generations.",
+"intro": "Languages can look permanent when written in books, but spoken language is always moving.",
+"body": [
+"Every generation learns language from other people, but no generation reproduces it perfectly. Pronunciations shift, words acquire new meanings, grammatical patterns become more or less common and entirely new expressions appear.",
+"Contact between groups can accelerate change. Languages borrow words and structures from one another through trade, migration, conquest, education, technology and cultural exchange.",
+"Geography also matters. When groups of speakers become separated, their speech can gradually diverge. Over long periods, the differences can become large enough that what were once varieties of the same language are treated as separate languages.",
+"There is therefore no single moment when a language suddenly changes. Language change is usually the accumulated result of countless small choices made by speakers over generations."
+],
+"sources": [
+{
+"title": "Encyclopaedia Britannica - Language",
+"url": "https://www.britannica.com/topic/language"
+},
+{
+"title": "Linguistic Society of America - Language Change",
+"url": "https://www.lsadc.org/"
+}
+],
+"next_id": "why-are-there-so-many-languages",
+"next_title": "Why are there thousands of different languages?"
+},
+{
+"id": "why-are-there-so-many-languages",
+"title": "Why are there thousands of different languages?",
+"date": "2026-09-10",
+"summary": "Human populations have developed different languages through separation, migration, cultural change and long periods of divergence.",
+"intro": "If all humans share the same basic ability to communicate through language, why did that ability produce thousands of different languages?",
+"body": [
+"Language is learned socially rather than transmitted as one fixed global system. When groups of speakers become separated from one another, the language spoken by each group begins changing independently.",
+"Over many generations, small differences in pronunciation, vocabulary and grammar accumulate. New words are invented, old words disappear and existing words can acquire different meanings.",
+"Migration and contact create another layer of complexity. A population can carry its language into a new region, encounter other languages and develop a new variety containing elements from several sources.",
+"The result is a branching history of related languages. Many languages therefore share common ancestors even though modern speakers may no longer recognize the relationship without linguistic analysis."
+],
+"sources": [
+{
+"title": "Encyclopaedia Britannica - Language",
+"url": "https://www.britannica.com/topic/language"
+},
+{
+"title": "Ethnologue - Languages of the World",
+"url": "https://www.ethnologue.com/"
+}
+],
+"next_id": "why-do-humans-use-money",
+"next_title": "Why do humans use money?"
+},
+{
+"id": "why-do-humans-use-money",
+"title": "Why do humans use money?",
+"date": "2026-09-10",
+"summary": "Money makes exchange easier by providing a commonly accepted medium for buying, selling and measuring value.",
+"intro": "Imagine trying to run a modern economy without money. Every purchase would require finding someone who wants exactly what you have and owns exactly what you want.",
+"body": [
+"Direct barter creates a problem known as the double coincidence of wants. If you have wheat and want shoes, the shoemaker must want wheat at the same time. Money removes much of this difficulty by giving people something broadly accepted in exchange.",
+"Money also provides a common unit in which prices can be expressed. Instead of comparing every object directly with every other object, people can use a shared measure of value.",
+"A useful form of money also needs to be reasonably durable, divisible, portable and difficult to create arbitrarily. Different societies have used many things as money, including commodities, coins, paper notes and electronic records.",
+"Modern money is largely based on institutions and collective trust. A banknote is useful not because the paper itself is inherently valuable, but because people and institutions accept it as a means of payment."
+],
+"sources": [
+{
+"title": "Federal Reserve Bank of St. Louis - What Is Money?",
+"url": "https://www.stlouisfed.org/in-plain-english/money"
+},
+{
+"title": "Federal Reserve - Money",
+"url": "https://www.federalreserve.gov/"
+}
+],
+"next_id": "why-does-money-have-value",
+"next_title": "Why does money have value?"
+},
+{
+"id": "why-does-money-have-value",
+"title": "Why does money have value?",
+"date": "2026-09-10",
+"summary": "Modern money has value largely because people trust that it will be accepted for payments and retain purchasing power.",
+"intro": "A banknote can be worth far more than the material it is printed on. Its value comes from a social and institutional system rather than the physical paper.",
+"body": [
+"Modern currencies are generally fiat currencies. They are not normally redeemable for a fixed quantity of gold or another physical commodity. Their usefulness comes from their role in the economic system and their acceptance as payment.",
+"Governments accept their currencies for taxes, and banks and businesses use them for settling transactions. These institutions help establish a broad network in which people expect the currency to be accepted by others.",
+"Money's purchasing power can change. If prices rise significantly, the same amount of money buys fewer goods and services. Stable monetary systems therefore depend partly on maintaining confidence in the currency and controlling inflation.",
+"Ultimately, money works because millions of people coordinate around the same convention. A currency is valuable partly because everyone expects other people to recognize its value too."
+],
+"sources": [
+{
+"title": "Federal Reserve Bank of St. Louis - What Is Money?",
+"url": "https://www.stlouisfed.org/in-plain-english/money"
+}
+],
+"next_id": "why-does-the-universe-expand",
+"next_title": "Why is the universe expanding?"
+},
+{
+"id": "why-does-the-universe-expand",
+"title": "Why is the universe expanding?",
+"date": "2026-09-10",
+"summary": "Distant galaxies are generally moving apart because the fabric of space itself has been expanding since the early universe.",
+"intro": "The universe is not simply a collection of galaxies flying outward into pre-existing empty space. On the largest scales, space itself is expanding.",
+"body": [
+"Astronomers observe that distant galaxies generally show redshift, meaning their light has been stretched toward longer wavelengths. The farther away a galaxy is, the greater this effect tends to be.",
+"The simplest large-scale interpretation is that the distances between widely separated regions of space are increasing. Galaxies that are not gravitationally bound to one another therefore become increasingly separated as the universe expands.",
+"This does not mean that everything is expanding. Objects held together by gravity or other forces, such as galaxies, solar systems and human bodies, do not simply stretch along with the universe.",
+"The expansion has also changed over cosmic history. Observations show that the expansion is currently accelerating, a phenomenon associated with what scientists call dark energy, although the underlying nature of dark energy remains one of modern cosmology's major unanswered questions."
+],
+"sources": [
+{
+"title": "NASA Science - Hubble's Law",
+"url": "https://science.nasa.gov/universe/galaxies/hubble-law/"
+},
+{
+"title": "NASA Science - Dark Energy",
+"url": "https://science.nasa.gov/universe/dark-energy/"
+}
+],
+"next_id": "why-does-the-sun-rise",
+"next_title": "Why does the Sun appear to rise and set?"
+},
+{
+"id": "why-does-the-sun-rise",
+"title": "Why does the Sun appear to rise and set?",
+"date": "2026-09-10",
+"summary": "The Sun appears to move across the sky because Earth rotates on its axis.",
+"intro": "Every morning the Sun seems to emerge from the horizon and every evening it disappears again. The apparent motion is actually produced by Earth's own rotation.",
+"body": [
+"Earth rotates around its axis once approximately every 24 hours. As the planet turns, different parts of its surface rotate into and out of the direction facing the Sun.",
+"If you stand on the surface, the ground beneath you is moving with Earth. The Sun therefore appears to travel across the sky from east to west even though the daily path is primarily a consequence of your changing position relative to it.",
+"The exact location of sunrise and sunset changes throughout the year because Earth's axis is tilted and the planet orbits the Sun. This changes the Sun's apparent path across the sky and the length of daylight.",
+"The Sun itself is also moving through the Milky Way, and the entire Solar System is moving through space. The simple sunrise we experience is therefore a tiny local view of several much larger motions."
+],
+"sources": [
+{
+"title": "NASA Science - Earth",
+"url": "https://science.nasa.gov/earth/"
+}
+],
+"next_id": "why-is-the-sky-blue",
+"next_title": "Why is the sky blue?"
+}
 ]

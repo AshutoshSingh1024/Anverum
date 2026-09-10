@@ -99,6 +99,30 @@ async function loadArticle() {
         console.error(error);
     }
 }
+async function loadRandomArticle() {
+    try {
+        const articles = await getJSON(`${API_BASE}/articles`);
 
+        if (!articles.length) {
+            return;
+        }
+
+        const randomIndex = Math.floor(Math.random() * articles.length);
+        const randomArticle = articles[randomIndex];
+
+        window.location.href =
+            `article.html?id=${encodeURIComponent(randomArticle.id)}`;
+    } catch (error) {
+        console.error("Could not load a random question:", error);
+    }
+}
+const whyButton = document.getElementById("why-button");
+
+if (whyButton) {
+    whyButton.addEventListener("click", (event) => {
+        event.preventDefault();
+        loadRandomArticle();
+    });
+}
 loadArticles();
 loadArticle();

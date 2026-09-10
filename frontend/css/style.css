@@ -86,7 +86,7 @@ a {
     margin: 0 0 24px;
 }
 
-.hero h1 {
+.hero .why-button {
     margin: 0;
     font-size: clamp(7rem, 19vw, 15rem);
     font-weight: 400;
@@ -95,7 +95,7 @@ a {
     transition: text-shadow 0.5s ease, transform 0.5s ease;
 }
 
-.hero h1:hover {
+.hero .why-button:hover {
     text-shadow: 0 0 70px rgba(255, 255, 255, 0.25);
     transform: scale(1.015);
 }
@@ -168,7 +168,7 @@ a {
     margin-bottom: 70px;
 }
 
-.article-header h1 {
+.article-header .why-button {
     font-size: clamp(3rem, 7vw, 6.5rem);
     font-weight: 400;
     line-height: 0.98;
